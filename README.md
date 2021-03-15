@@ -7,7 +7,7 @@ See the old [readme](./og-README.md)
 - install `maven` and run: 
 
 ```zsh
-mvn package
+./release.sh
 ```
-- copy the `github-pr-poller` jar from the `target/` to the
+- copy the `github-pr-poller` jar from the `dist/` to the
 `/srv/go-server/plugins/external` 
